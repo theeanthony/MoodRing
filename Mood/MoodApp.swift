@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct MoodApp: App {
+    let persistenceController = PersistenceController.shared
+
+    @StateObject private var bluetoothConnectionViewModel : BluetoothConnectionViewModel = BluetoothConnectionViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                BackgroundView()
+                    
+                ConnectDeviceView()
+                    .environmentObject(bluetoothConnectionViewModel)
+            }
+
         }
     }
 }

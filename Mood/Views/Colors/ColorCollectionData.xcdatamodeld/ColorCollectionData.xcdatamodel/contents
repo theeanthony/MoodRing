@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BluetoothDeviceEntity" representedClassName="BluetoothDeviceEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="toColorCollection" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ColorCollection" inverseName="device" inverseEntity="ColorCollection"/>
+    </entity>
+    <entity name="ColorCollection" representedClassName="ColorCollection" syncable="YES" codeGenerationType="class">
+        <attribute name="deviceId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="rateOfChange" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="device" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BluetoothDeviceEntity" inverseName="toColorCollection" inverseEntity="BluetoothDeviceEntity"/>
+        <relationship name="savedColors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SavedColor" inverseName="colorCollection" inverseEntity="SavedColor"/>
+    </entity>
+    <entity name="SavedColor" representedClassName="SavedColor" syncable="YES" codeGenerationType="class">
+        <attribute name="alpha" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="blue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="green" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="red" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="colorCollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorCollection" inverseName="savedColors" inverseEntity="ColorCollection"/>
+    </entity>
+</model>

@@ -7,13 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B03C5982B77FE8700B838E1 /* ColorRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03C5972B77FE8700B838E1 /* ColorRepo.swift */; };
+		1B481EFB2B857EC100BB42FA /* BluetoothDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B481EFA2B857EC100BB42FA /* BluetoothDeviceModel.swift */; };
+		1B481EFD2B859BBD00BB42FA /* DeviceDisconnectedLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B481EFC2B859BBD00BB42FA /* DeviceDisconnectedLabelView.swift */; };
+		1B481F002B869AAE00BB42FA /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B481EFF2B869AAE00BB42FA /* HeaderViewModel.swift */; };
+		1B481F022B869B9F00BB42FA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B481F012B869B9F00BB42FA /* HeaderView.swift */; };
 		1B5282BC2B6F350E0018C053 /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282BB2B6F350E0018C053 /* MoodApp.swift */; };
 		1B5282BE2B6F350E0018C053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282BD2B6F350E0018C053 /* ContentView.swift */; };
 		1B5282C02B6F35120018C053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5282BF2B6F35120018C053 /* Assets.xcassets */; };
 		1B5282C42B6F35120018C053 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5282C32B6F35120018C053 /* Preview Assets.xcassets */; };
-		1B5282CE2B6F35130018C053 /* MoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282CD2B6F35130018C053 /* MoodTests.swift */; };
-		1B5282D82B6F35130018C053 /* MoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282D72B6F35130018C053 /* MoodUITests.swift */; };
-		1B5282DA2B6F35130018C053 /* MoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282D92B6F35130018C053 /* MoodUITestsLaunchTests.swift */; };
+		1B5282E92B6F399E0018C053 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282E82B6F399E0018C053 /* BluetoothManager.swift */; };
+		1B5282EB2B6F39E80018C053 /* BluetoothPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282EA2B6F39E80018C053 /* BluetoothPermissionManager.swift */; };
+		1B5282EF2B6F3E2F0018C053 /* BluetoothConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282EE2B6F3E2F0018C053 /* BluetoothConnectionViewModel.swift */; };
+		1B5282F22B7036B80018C053 /* ConnectDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282F12B7036B80018C053 /* ConnectDeviceView.swift */; };
+		1B5282F72B7094440018C053 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282F62B7094440018C053 /* HomeView.swift */; };
+		1B5282F92B7095AC0018C053 /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282F82B7095AC0018C053 /* AddDeviceView.swift */; };
+		1B5282FB2B7095DB0018C053 /* SearchDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282FA2B7095DB0018C053 /* SearchDeviceView.swift */; };
+		1B5282FE2B72FFDD0018C053 /* DeviceLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282FD2B72FFDD0018C053 /* DeviceLabelView.swift */; };
+		1B5283002B7302D90018C053 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5282FF2B7302D90018C053 /* DeviceViewModel.swift */; };
+		1B5283032B7405ED0018C053 /* NeoButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5283022B7405ED0018C053 /* NeoButtonStyle.swift */; };
+		1B5283062B7406B70018C053 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5283052B7406B70018C053 /* AppColors.swift */; };
+		1B5283092B740B4C0018C053 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5283082B740B4C0018C053 /* BackgroundView.swift */; };
+		1B52830B2B740C600018C053 /* DarkBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B52830A2B740C600018C053 /* DarkBackground.swift */; };
+		1BCDA0552B741892005D91DD /* LabelBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0542B741892005D91DD /* LabelBackgroundView.swift */; };
+		1BCDA0662B742A97005D91DD /* ChromaControlStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0572B742A97005D91DD /* ChromaControlStylable.swift */; };
+		1BCDA0672B742A97005D91DD /* ChromaBrightnessSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0582B742A97005D91DD /* ChromaBrightnessSlider.swift */; };
+		1BCDA0682B742A97005D91DD /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA05A2B742A97005D91DD /* UIView+Utils.swift */; };
+		1BCDA0692B742A97005D91DD /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA05B2B742A97005D91DD /* UIColor+Utils.swift */; };
+		1BCDA06A2B742A97005D91DD /* UIColor+Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA05C2B742A97005D91DD /* UIColor+Brightness.swift */; };
+		1BCDA06B2B742A97005D91DD /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA05D2B742A97005D91DD /* UIView+DropShadow.swift */; };
+		1BCDA06C2B742A97005D91DD /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA05F2B742A97005D91DD /* ChromaColorPicker.swift */; };
+		1BCDA06D2B742A97005D91DD /* ColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0602B742A97005D91DD /* ColorWheelView.swift */; };
+		1BCDA06F2B742A97005D91DD /* SliderTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0632B742A97005D91DD /* SliderTrackView.swift */; };
+		1BCDA0702B742A97005D91DD /* ChromaColorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0642B742A97005D91DD /* ChromaColorHandle.swift */; };
+		1BCDA0712B742A97005D91DD /* SliderHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0652B742A97005D91DD /* SliderHandleView.swift */; };
+		1BCDA0732B742AF5005D91DD /* AddColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0722B742AF5005D91DD /* AddColorView.swift */; };
+		1BCDA0772B742D03005D91DD /* ChromaColorPickerWithSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0762B742D03005D91DD /* ChromaColorPickerWithSlider.swift */; };
+		1BCDA0792B743485005D91DD /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0782B743485005D91DD /* ColorPickerViewModel.swift */; };
+		1BCDA07D2B7450D4005D91DD /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA07C2B7450D4005D91DD /* ColorModel.swift */; };
+		1BCDA0822B748968005D91DD /* ColorCollectionData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA0802B748968005D91DD /* ColorCollectionData.xcdatamodeld */; };
+		1BCDA0902B749E78005D91DD /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDA08F2B749E78005D91DD /* PersistenceController.swift */; };
+		1BDB77552B86A5CD006F419E /* PulseSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB77542B86A5CD006F419E /* PulseSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +68,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B03C5972B77FE8700B838E1 /* ColorRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRepo.swift; sourceTree = "<group>"; };
+		1B481EFA2B857EC100BB42FA /* BluetoothDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceModel.swift; sourceTree = "<group>"; };
+		1B481EFC2B859BBD00BB42FA /* DeviceDisconnectedLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDisconnectedLabelView.swift; sourceTree = "<group>"; };
+		1B481EFF2B869AAE00BB42FA /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
+		1B481F012B869B9F00BB42FA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1B5282B82B6F350E0018C053 /* Mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5282BB2B6F350E0018C053 /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
 		1B5282BD2B6F350E0018C053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,10 +80,40 @@
 		1B5282C12B6F35120018C053 /* Mood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mood.entitlements; sourceTree = "<group>"; };
 		1B5282C32B6F35120018C053 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B5282C92B6F35130018C053 /* MoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5282CD2B6F35130018C053 /* MoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTests.swift; sourceTree = "<group>"; };
 		1B5282D32B6F35130018C053 /* MoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5282D72B6F35130018C053 /* MoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodUITests.swift; sourceTree = "<group>"; };
-		1B5282D92B6F35130018C053 /* MoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B5282E82B6F399E0018C053 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		1B5282EA2B6F39E80018C053 /* BluetoothPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionManager.swift; sourceTree = "<group>"; };
+		1B5282EE2B6F3E2F0018C053 /* BluetoothConnectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnectionViewModel.swift; sourceTree = "<group>"; };
+		1B5282F12B7036B80018C053 /* ConnectDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectDeviceView.swift; sourceTree = "<group>"; };
+		1B5282F62B7094440018C053 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B5282F82B7095AC0018C053 /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
+		1B5282FA2B7095DB0018C053 /* SearchDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDeviceView.swift; sourceTree = "<group>"; };
+		1B5282FD2B72FFDD0018C053 /* DeviceLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLabelView.swift; sourceTree = "<group>"; };
+		1B5282FF2B7302D90018C053 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		1B5283022B7405ED0018C053 /* NeoButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoButtonStyle.swift; sourceTree = "<group>"; };
+		1B5283052B7406B70018C053 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		1B5283082B740B4C0018C053 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		1B52830A2B740C600018C053 /* DarkBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBackground.swift; sourceTree = "<group>"; };
+		1BCDA0542B741892005D91DD /* LabelBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelBackgroundView.swift; sourceTree = "<group>"; };
+		1BCDA0572B742A97005D91DD /* ChromaControlStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaControlStylable.swift; sourceTree = "<group>"; };
+		1BCDA0582B742A97005D91DD /* ChromaBrightnessSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaBrightnessSlider.swift; sourceTree = "<group>"; };
+		1BCDA05A2B742A97005D91DD /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		1BCDA05B2B742A97005D91DD /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		1BCDA05C2B742A97005D91DD /* UIColor+Brightness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Brightness.swift"; sourceTree = "<group>"; };
+		1BCDA05D2B742A97005D91DD /* UIView+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DropShadow.swift"; sourceTree = "<group>"; };
+		1BCDA05E2B742A97005D91DD /* ChromaColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromaColorPicker.h; sourceTree = "<group>"; };
+		1BCDA05F2B742A97005D91DD /* ChromaColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorPicker.swift; sourceTree = "<group>"; };
+		1BCDA0602B742A97005D91DD /* ColorWheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheelView.swift; sourceTree = "<group>"; };
+		1BCDA0632B742A97005D91DD /* SliderTrackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderTrackView.swift; sourceTree = "<group>"; };
+		1BCDA0642B742A97005D91DD /* ChromaColorHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaColorHandle.swift; sourceTree = "<group>"; };
+		1BCDA0652B742A97005D91DD /* SliderHandleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderHandleView.swift; sourceTree = "<group>"; };
+		1BCDA0722B742AF5005D91DD /* AddColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorView.swift; sourceTree = "<group>"; };
+		1BCDA0762B742D03005D91DD /* ChromaColorPickerWithSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaColorPickerWithSlider.swift; sourceTree = "<group>"; };
+		1BCDA0782B743485005D91DD /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
+		1BCDA07C2B7450D4005D91DD /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		1BCDA0812B748968005D91DD /* ColorCollectionData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorCollectionData.xcdatamodel; sourceTree = "<group>"; };
+		1BCDA08F2B749E78005D91DD /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1BDB77542B86A5CD006F419E /* PulseSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +141,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B481EFE2B869A7D00BB42FA /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				1B481EFF2B869AAE00BB42FA /* HeaderViewModel.swift */,
+				1B481F012B869B9F00BB42FA /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		1B5282AF2B6F350D0018C053 = {
 			isa = PBXGroup;
 			children = (
 				1B5282BA2B6F350E0018C053 /* Mood */,
-				1B5282CC2B6F35130018C053 /* MoodTests */,
-				1B5282D62B6F35130018C053 /* MoodUITests */,
 				1B5282B92B6F350E0018C053 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +171,10 @@
 		1B5282BA2B6F350E0018C053 /* Mood */ = {
 			isa = PBXGroup;
 			children = (
+				1BCDA0562B742A97005D91DD /* Source */,
+				1B5282F32B7094280018C053 /* Views */,
+				1B5282E72B6F39820018C053 /* Bluetooth */,
+				1B5282E62B6F39710018C053 /* Data */,
 				1B5282BB2B6F350E0018C053 /* MoodApp.swift */,
 				1B5282BD2B6F350E0018C053 /* ContentView.swift */,
 				1B5282BF2B6F35120018C053 /* Assets.xcassets */,
@@ -112,21 +192,141 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1B5282CC2B6F35130018C053 /* MoodTests */ = {
+		1B5282E62B6F39710018C053 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				1B5282CD2B6F35130018C053 /* MoodTests.swift */,
+				1BCDA08F2B749E78005D91DD /* PersistenceController.swift */,
 			);
-			path = MoodTests;
+			path = Data;
 			sourceTree = "<group>";
 		};
-		1B5282D62B6F35130018C053 /* MoodUITests */ = {
+		1B5282E72B6F39820018C053 /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				1B5282D72B6F35130018C053 /* MoodUITests.swift */,
-				1B5282D92B6F35130018C053 /* MoodUITestsLaunchTests.swift */,
+				1B5282E82B6F399E0018C053 /* BluetoothManager.swift */,
+				1B5282EA2B6F39E80018C053 /* BluetoothPermissionManager.swift */,
+				1B5282EE2B6F3E2F0018C053 /* BluetoothConnectionViewModel.swift */,
+				1B481EFA2B857EC100BB42FA /* BluetoothDeviceModel.swift */,
 			);
-			path = MoodUITests;
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		1B5282F02B7036A20018C053 /* ConnectDevice */ = {
+			isa = PBXGroup;
+			children = (
+				1B5282F12B7036B80018C053 /* ConnectDeviceView.swift */,
+				1B5282F82B7095AC0018C053 /* AddDeviceView.swift */,
+				1B5282FA2B7095DB0018C053 /* SearchDeviceView.swift */,
+			);
+			path = ConnectDevice;
+			sourceTree = "<group>";
+		};
+		1B5282F32B7094280018C053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B481EFE2B869A7D00BB42FA /* Header */,
+				1BCDA0742B742CD8005D91DD /* ChromaColorConversion */,
+				1B5283072B740B400018C053 /* Background */,
+				1B5283042B7406A60018C053 /* Colors */,
+				1B5283012B7405DC0018C053 /* Buttons */,
+				1B5282FC2B72FFB80018C053 /* Device */,
+				1B5282F02B7036A20018C053 /* ConnectDevice */,
+				1B5282F42B7094300018C053 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B5282F42B7094300018C053 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B5282F62B7094440018C053 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B5282FC2B72FFB80018C053 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				1B5282FD2B72FFDD0018C053 /* DeviceLabelView.swift */,
+				1B5282FF2B7302D90018C053 /* DeviceViewModel.swift */,
+				1B481EFC2B859BBD00BB42FA /* DeviceDisconnectedLabelView.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		1B5283012B7405DC0018C053 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1B5283022B7405ED0018C053 /* NeoButtonStyle.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		1B5283042B7406A60018C053 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				1B5283052B7406B70018C053 /* AppColors.swift */,
+				1BCDA0722B742AF5005D91DD /* AddColorView.swift */,
+				1BCDA07C2B7450D4005D91DD /* ColorModel.swift */,
+				1BCDA0802B748968005D91DD /* ColorCollectionData.xcdatamodeld */,
+				1B03C5972B77FE8700B838E1 /* ColorRepo.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		1B5283072B740B400018C053 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				1B5283082B740B4C0018C053 /* BackgroundView.swift */,
+				1B52830A2B740C600018C053 /* DarkBackground.swift */,
+				1BCDA0542B741892005D91DD /* LabelBackgroundView.swift */,
+				1BDB77542B86A5CD006F419E /* PulseSearchView.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		1BCDA0562B742A97005D91DD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDA0572B742A97005D91DD /* ChromaControlStylable.swift */,
+				1BCDA0582B742A97005D91DD /* ChromaBrightnessSlider.swift */,
+				1BCDA0592B742A97005D91DD /* Extensions */,
+				1BCDA05E2B742A97005D91DD /* ChromaColorPicker.h */,
+				1BCDA05F2B742A97005D91DD /* ChromaColorPicker.swift */,
+				1BCDA0602B742A97005D91DD /* ColorWheelView.swift */,
+				1BCDA0622B742A97005D91DD /* Supporting Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1BCDA0592B742A97005D91DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDA05A2B742A97005D91DD /* UIView+Utils.swift */,
+				1BCDA05B2B742A97005D91DD /* UIColor+Utils.swift */,
+				1BCDA05C2B742A97005D91DD /* UIColor+Brightness.swift */,
+				1BCDA05D2B742A97005D91DD /* UIView+DropShadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BCDA0622B742A97005D91DD /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDA0632B742A97005D91DD /* SliderTrackView.swift */,
+				1BCDA0642B742A97005D91DD /* ChromaColorHandle.swift */,
+				1BCDA0652B742A97005D91DD /* SliderHandleView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		1BCDA0742B742CD8005D91DD /* ChromaColorConversion */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDA0762B742D03005D91DD /* ChromaColorPickerWithSlider.swift */,
+				1BCDA0782B743485005D91DD /* ColorPickerViewModel.swift */,
+			);
+			path = ChromaColorConversion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +459,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5282FB2B7095DB0018C053 /* SearchDeviceView.swift in Sources */,
 				1B5282BE2B6F350E0018C053 /* ContentView.swift in Sources */,
+				1B5282F22B7036B80018C053 /* ConnectDeviceView.swift in Sources */,
+				1B5283062B7406B70018C053 /* AppColors.swift in Sources */,
+				1BCDA0662B742A97005D91DD /* ChromaControlStylable.swift in Sources */,
+				1BCDA0702B742A97005D91DD /* ChromaColorHandle.swift in Sources */,
+				1BCDA0792B743485005D91DD /* ColorPickerViewModel.swift in Sources */,
+				1B481F002B869AAE00BB42FA /* HeaderViewModel.swift in Sources */,
+				1B5282E92B6F399E0018C053 /* BluetoothManager.swift in Sources */,
+				1BCDA0772B742D03005D91DD /* ChromaColorPickerWithSlider.swift in Sources */,
+				1BCDA06D2B742A97005D91DD /* ColorWheelView.swift in Sources */,
+				1BCDA0732B742AF5005D91DD /* AddColorView.swift in Sources */,
+				1B5282EB2B6F39E80018C053 /* BluetoothPermissionManager.swift in Sources */,
+				1BCDA0682B742A97005D91DD /* UIView+Utils.swift in Sources */,
+				1B5282F72B7094440018C053 /* HomeView.swift in Sources */,
+				1B52830B2B740C600018C053 /* DarkBackground.swift in Sources */,
+				1BCDA0712B742A97005D91DD /* SliderHandleView.swift in Sources */,
+				1BCDA0672B742A97005D91DD /* ChromaBrightnessSlider.swift in Sources */,
+				1B5283032B7405ED0018C053 /* NeoButtonStyle.swift in Sources */,
+				1B481EFD2B859BBD00BB42FA /* DeviceDisconnectedLabelView.swift in Sources */,
+				1B5283002B7302D90018C053 /* DeviceViewModel.swift in Sources */,
+				1BDB77552B86A5CD006F419E /* PulseSearchView.swift in Sources */,
+				1BCDA06B2B742A97005D91DD /* UIView+DropShadow.swift in Sources */,
+				1BCDA06F2B742A97005D91DD /* SliderTrackView.swift in Sources */,
+				1B5282F92B7095AC0018C053 /* AddDeviceView.swift in Sources */,
+				1B5283092B740B4C0018C053 /* BackgroundView.swift in Sources */,
+				1B481F022B869B9F00BB42FA /* HeaderView.swift in Sources */,
+				1BCDA06A2B742A97005D91DD /* UIColor+Brightness.swift in Sources */,
+				1BCDA06C2B742A97005D91DD /* ChromaColorPicker.swift in Sources */,
+				1B03C5982B77FE8700B838E1 /* ColorRepo.swift in Sources */,
+				1BCDA0692B742A97005D91DD /* UIColor+Utils.swift in Sources */,
+				1BCDA0902B749E78005D91DD /* PersistenceController.swift in Sources */,
+				1BCDA0822B748968005D91DD /* ColorCollectionData.xcdatamodeld in Sources */,
+				1BCDA07D2B7450D4005D91DD /* ColorModel.swift in Sources */,
 				1B5282BC2B6F350E0018C053 /* MoodApp.swift in Sources */,
+				1B5282EF2B6F3E2F0018C053 /* BluetoothConnectionViewModel.swift in Sources */,
+				1B481EFB2B857EC100BB42FA /* BluetoothDeviceModel.swift in Sources */,
+				1B5282FE2B72FFDD0018C053 /* DeviceLabelView.swift in Sources */,
+				1BCDA0552B741892005D91DD /* LabelBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +505,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5282CE2B6F35130018C053 /* MoodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +512,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5282D82B6F35130018C053 /* MoodUITests.swift in Sources */,
-				1B5282DA2B6F35130018C053 /* MoodUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +658,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow access to Bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Search for nearby Bluetooth Devices";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +698,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow access to Bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Search for nearby Bluetooth Devices";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -617,6 +855,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BCDA0802B748968005D91DD /* ColorCollectionData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BCDA0812B748968005D91DD /* ColorCollectionData.xcdatamodel */,
+			);
+			currentVersion = 1BCDA0812B748968005D91DD /* ColorCollectionData.xcdatamodel */;
+			path = ColorCollectionData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1B5282B02B6F350D0018C053 /* Project object */;
 }
